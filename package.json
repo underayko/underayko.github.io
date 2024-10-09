@@ -2,6 +2,7 @@
 	"name": "underayko.github.io",
 	"version": "0.0.1",
 	"private": true,
+	"homepage": "https://underayko.github.io/underayko.github.io",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
