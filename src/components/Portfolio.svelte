@@ -1,7 +1,7 @@
 <script>
     import coverPhoto from '../images/portfolioCover.jpg';
     import catPhoto from '../images/cat.jpeg';
-    import unfoldImage from '../images/unfold.jfif'; // Import the new image
+    import unfoldImage from '../images/unfoldap.png'; // Import the new image
     import blogImage from '../images/blog.png'
 
     const projects = [
