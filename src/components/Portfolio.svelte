@@ -27,7 +27,7 @@
     <div class="mx-0">
         <!-- Cover Photo Section -->
         <div class="relative mb-0 w-full h-[90vh]">
-            <img src={coverPhoto} alt="Cover Photo" class="absolute inset-0 w-full h-full object-cover" />
+            <img src={coverPhoto} alt="" class="absolute inset-0 w-full h-full object-cover" />
             <div class="absolute inset-0 flex flex-col justify-center items-start pl-8 sm:pl-16 md:pl-32 lg:pl-64 text-white">
                 <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold font-raleway text-[#04060f]">NIS CORPUZ</h1>
                 <p class="mt-1 text-base sm:text-lg md:text-xl font-sans">I am a <span class="text-[#04060f]">BSIT</span> student, passionate about developing</p>

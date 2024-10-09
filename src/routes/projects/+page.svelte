@@ -22,7 +22,7 @@
             title: "Portfolio Website",
             image: "src/images/unfoldap.png",  // Image path
             description: "A portfolio website for students showcasing their skills and projects.",
-            experience: "This project helped me to enhance my web development skills, especially in JavaScript and its framework, Angular. I learned how to create responsive layouts and improve user experience through clean design.",
+            experience: "This project helped me to enhance my web development skills, especially in JavaScript and its framework, Angular. I learned how to create responsive layouts and improve user experience through clean design. I also learned how to communicate with other people since this project is by group.",
             link: "https://underayko.github.io/myportfolio/"
         },
         {
@@ -38,7 +38,8 @@
 
 <!-- Fixed Header -->
 <header class={`fixed top-0 left-0 w-full flex justify-between items-center p-2 transition-all duration-300 ${scrollAnimationClass} z-10`}>
-    <div class="text-2xl font-bold cursor-pointer" on:click={scrollToTop}>ELPZ</div>
+    <div role="button" tabindex="0" on:click={scrollToTop} on:keydown={(e) => e.key === 'Enter' && scrollToTop()} class="text-2xl font-bold cursor-pointer">ELPZ</div>
+
     <div class="text-2xl">My Projects</div>
 </header>
 
@@ -69,11 +70,6 @@
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
-    body {
-        font-family: 'Raleway', sans-serif; /* Set font for the entire page */
-        margin: 0; /* Remove default margin */
-        padding: 0; /* Remove default padding */
-    }
 
     header {
         position: fixed;

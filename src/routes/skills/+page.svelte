@@ -20,7 +20,8 @@
 
 <!-- Fixed Header -->
 <header class={`fixed top-0 left-0 w-full flex justify-between items-center p-2 transition-all duration-300 ${scrollAnimationClass} z-10`}>
-    <div class="text-2xl font-bold cursor-pointer" on:click={scrollToTop}>ELPZ</div>
+    <div role="button" tabindex="0" on:click={scrollToTop} on:keydown={(e) => e.key === 'Enter' && scrollToTop()} class="text-2xl font-bold cursor-pointer">ELPZ</div>
+
     <div class="text-2xl">My Skills</div>
 </header>
 

@@ -20,9 +20,10 @@
 
 <!-- Fixed Header -->
 <header class={`fixed top-0 left-0 w-full flex justify-between items-center p-2 transition-all duration-300 ${scrollAnimationClass} z-10`}>
-    <div class="text-2xl font-bold cursor-pointer" on:click={scrollToTop}>ELPZ</div>
+    <button type="button" class="text-2xl font-bold" on:click={scrollToTop}>ELPZ</button>
     <div class="text-2xl">About me</div>
 </header>
+
 
 <div class="container mt-16">
     <h1>About Me</h1>
