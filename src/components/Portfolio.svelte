@@ -46,7 +46,7 @@
                     I am a dedicated BSIT student with a passion for technology and innovation. My journey has led me to explore various aspects of software development, including web and mobile applications. I thrive on challenges and enjoy creating solutions that enhance user experiences.
                 </p>
                 <p class="text-lg font-sans text-gray-800">
-                    When I'm not coding, I love sketching and spending time with my cat Orin, who inspires my creativity.
+                    When I'm not coding, I love sketching and spending time with my cat Orin, who inspires my creativity and motivates me.
                 </p>
             </div>
         </div>

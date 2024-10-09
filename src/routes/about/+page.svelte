@@ -39,7 +39,7 @@
             Over the years, my curiosity led me to explore different aspects of technology, from programming to graphic design, which later shaped my decision to pursue a degree in Information Technology.
         </p>
         <p>
-            As I continue my education at Gordon College, I’m always looking for new challenges and learning opportunities to sharpen my skills.
+            As I continue my education at Gordon College, I’m always looking for new challenges and learning opportunities to sharpen my skills as a BSIT student.
         </p>
     </div>
 
