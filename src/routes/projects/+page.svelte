@@ -20,14 +20,14 @@
     let projects = [
         {
             title: "Portfolio Website",
-            image: "src/images/unfoldap.png",  // Image path
+            image: "/unfoldap.png",  // Image path
             description: "A portfolio website for students showcasing their skills and projects.",
             experience: "This project helped me to enhance my web development skills, especially in JavaScript and its framework, Angular. I learned how to create responsive layouts and improve user experience through clean design. I also learned how to communicate with other people since this project is by group.",
             link: "https://underayko.github.io/myportfolio/"
         },
         {
             title: "Blog Website",
-            image: "src/images/blog.png",  // Image path
+            image: "/blog.png",  // Image path
             description: "A blogging platform allowing users to create and share blog posts.",
             experience: "Working on this blog application expanded my knowledge in backend development and database management. I implemented user authentication, rich text editing, and more features and also learned to manage state effectively.",
             link: "https://github.com/yourusername/blog-application"
